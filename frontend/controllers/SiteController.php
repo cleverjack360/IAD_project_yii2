@@ -142,6 +142,17 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays review page.
+     *
+     * @return mixed
+     */
+    public function actionReview()
+    {
+        return $this->render('reviews');
+    }
+
+
+    /**
      * Signs user up.
      *
      * @return mixed
